@@ -1,0 +1,250 @@
+<html>
+<head>
+<title>web page</title>
+<style>
+h1
+{
+color:rgb(255, 0, 0);
+text-align:center;
+}
+hr{
+background-color:rgb(248, 135, 59);
+height:3px;
+}
+p
+{
+  text-align: center;
+font-family:verdana;
+font-size:15px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d7a354;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #72560f;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d5c597;
+}
+header {
+  text-align: center;
+  padding: 20px;
+}
+header .logo {
+  max-width: 200px;
+}
+nav {
+  background-color: #003366;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.announcements {
+  background-color: #ffcc00;
+  padding: 10px;
+  text-align: center;
+}
+.slider {
+  position: relative;
+  max-width: 50%;
+  overflow: hidden;
+}
+.slider .slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.slider img {
+  width: 50%;
+  height: auto;
+}
+.news-events {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.news, .events {
+  width: 50%;
+}
+.news ul, .events ul {
+  list-style: none;
+}
+.news ul li, .events ul li {
+  margin-bottom: 10px;
+}
+.campus-life {
+  text-align: center;
+  padding: 20px;
+}
+.campus-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.campus-images img {
+  max-width: 150px;
+  height: auto;
+
+}
+.resize {
+width: 200px; 
+height: 200px; 
+object-fit: cover;
+}
+</style>
+</head>
+<body>
+
+<hr/>
+<marquee> Welcome to NITW  </marquee>
+<br/><hr/>
+<h1>National Institute of Technology -Warangal</h1>
+
+<img src="nitlogo1.jpeg" alt="nitlogo1"  class="center resize"   ><br/><hr/>
+<br/><hr/>
+
+<section class="announcements">
+  <marquee>Latest Announcement: NITW is now ranked among the top 10 engineering colleges!</marquee>
+</section>
+
+<p align="center" >Welcome to the Campus of NITW </p><hr/>
+<marquee>RANKING OF NITW IN THE COUNTRY  </marquee><br/><hr/>
+<marquee>WE ARE AT THE 21st POSITION IN THE ENGINEERING SECTOR  </marquee><br/><hr/>
+
+    <img src="nirf2.jpeg" alt="nirf2"     class=" resize" >
+    <img src="nitlogo2.png" alt="nitlogo2 "    class=" resize"  >
+    <img src="nitcampus1.jpeg" alt="nitcampus1"   class=" resize"    >
+    <img src="nitcampus2.jpeg" alt="nitcampus2 "     class="resize"  >
+    <img src="nirf1.jpeg" alt="nirf1"   class=" resize"  >
+    <img src="nitcampus3.jpeg" alt="nitcampus3"   class=" resize"  >
+</hr>
+ <!-- <section class="slider">
+  <div class="slides"  >
+    <img src="nitlogo2.png" alt="nitlogo2 "   class="center resize"   >
+    <img src="nitcampus1.jpeg" alt="nitcampus1"      class="center resize" >
+    <img src="nitcampus2.jpeg" alt="nitcampus2 "     class="center resize" >
+    <img src="nirf1.jpeg" alt="nirf1"    class="center resize" >
+  </div>
+</section>  -->
+
+<marquee direction="left" scrollamount="5">
+  <img src="nitcampus3.jpeg"   class=" resize" >
+  <img src="nitcampus4.jpeg"   class=" resize" >
+  <img src="nitcampus5.jpeg"    class="resize">
+  <img src="nitcampus3.jpeg"   class="resize" >
+  <img src="nitcampus2.jpeg"   class="resize" >
+</marquee>
+</hr></hr>
+
+    <img src="nitcampus3.jpeg" alt="nitcampus3" style="width:10%"      >
+ 
+
+    <img src="nitcampus4.jpeg" alt="nitcampus4" style="width:10%"     >
+
+    <img src="nitcampus5.jpeg" alt="nitcampus5" style="width:10%"     >
+  
+<!-- <div class="" style="max-width:120px">
+  <img class="mySlides" src="nitwcampus6.jpeg" style="width:100%">
+  <img class="mySlides" src="nitwcampus1.jpeg" style="width:100%">
+  <img class="mySlides" src="nitwcampus2.jpeg" style="width:100%">
+</div> -->
+
+<hr/>
+<nav>
+<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>
+</nav>
+ <section class="news-events">
+  <div class="news">
+    <h2>News</h2>
+    <ul>
+      <li><a href="#">NITW Ranked in Top 10</a></li>
+      <li><a href="#">New Research Grant Announced</a></li>
+      <li><a href="#">Campus Fest Schedule Released</a></li>
+    </ul>
+  </div>
+  <div class="events">
+    <h2>Events</h2>
+    <ul>
+      <li><a href="#">Annual Tech Fest</a></li>
+      <li><a href="#">Sports Meet</a></li>
+      <li><a href="#">Cultural Fest</a></li>
+    </ul>
+  </div>
+</section>
+<section class="campus-life">
+  <h2>Campus Life</h2>
+  <div class="campus-images">
+    <img src="nitcampus1.jpeg" alt="nitcampus1"  >
+    <img src="nitcampus2.jpeg" alt="nitcampus2"  >
+    <img src="nitcampus3.jpeg" alt="nitcampus3"  >
+  </div>
+</section>
+</ul><hr/>
+<marquee>This is NITW BTech MTech PG PhD courses are available </marquee><hr/>
+<h2>DIRECTOR'S MESSAGE</h2>
+<img align="center" src="nitw director.jpeg" alt="nitw director"   class="center resize" >
+<p>I am glad that I have been given an opportunity to serve as the Director of National Institute of Technology (NIT) Warangal.
+The oldest one in the bracket of first 17 NITs. 
+It is an honour and privilege for me to lead this prestigious institute which has a rich history of its distinction in teaching, research and service to the nation.
+It is the first regional engineering college whose foundation stone has been laid by the former prime minister, Pandit Jawaharlal Nehru in the year 1959.
+Over a period of more than six decades, NIT Warangal has emerged as one of the leading institutions in engineering and technology.
+</p><hr/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
